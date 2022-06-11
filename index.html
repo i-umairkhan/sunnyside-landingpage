@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sunnyside</title>
+    <link rel="stylesheet" href="/input.css" />
+    <script type="module" src="/script.js"></script>
+  </head>
+  <body>
+    <div
+      id="mainpage "
+      class="h-[80vh] sm:h-[100vh] w-[100vw] bg-main-mobile sm:bg-main-page bg-cover bg-no-repeat bg-center flex flex-col text-[18px]"
+    >
+      <nav class="p-4 flex justify-between sm:p-5 text-white font-barlow">
+        <a href="#" class="font-barlow font-[600]">sunnyside</a>
+        <img
+          src="./images/icon-hamburger.svg"
+          alt=""
+          id="hamburger"
+          class="sm:hidden w-auto h-4 self-center"
+        />
+        <ul id="links" class="hidden sm:flex sm:space-x-7">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects </a></li>
+          <li>
+            <a
+              href="#"
+              class="text-black bg-white rounded-3xl px-5 py-2 font-fraunces"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <ul
+        id="hamburger-links"
+        class="hidden absolute top-14 self-center w-[80%] text-center bg-white text-gray-500 p-5 sm:hidden sm:space-x-7"
+      >
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li class="mb-2"><a href="#">Projects </a></li>
+        <li>
+          <a
+            href="#"
+            class="text-black bg-yellow-300 rounded-3xl px-5 py-2 font-fraunces"
+            >CONTACT</a
+          >
+        </li>
+      </ul>
+      <h1
+        class="text-3xl text-white sm:text-5xl text-center mt-10 font-fraunces tracking-widest"
+      >
+        WE ARE CREATIVES
+      </h1>
+      <img
+        src="./images/icon-arrow-down.svg"
+        alt=""
+        class="self-center h-15 w-[auto] my-16"
+      />
+    </div>
+    <div id="transform" class="h-[100vh] flex flex-col-reverse sm:flex-row">
+      <div id="left" class="w-[100%] h-[100%] flex flex-col justify-center">
+        <h1
+          class="font-fraunces text-2xl w-[75%] text-center sm:w-96 sm:text-left self-center"
+        >
+          Transform Your Brand
+        </h1>
+        <h1
+          class="font-barlow w-[75%] sm:w-96 text-center sm:text-left text-gray-500 text-[15px] sm:text-[18px] self-center mt-5"
+        >
+          We are full-service creative agency specializing in helping brands
+          grow fast. Engage your cllients through compelling visuals that do
+          most of the markiting for you.
+        </h1>
+        <div
+          class="font-fraunces text-sm self-center w-[100%] sm:w-96 mt-5 flex justify-center sm:justify-start"
+        >
+          <a href="#" class="border-b-4 border-yellow-200">LEARN MORE</a>
+        </div>
+      </div>
+      <img
+        src="./images/desktop/image-transform.jpg"
+        alt=""
+        class="w-[100%] sm:w-[50%]"
+      />
+    </div>
+    <div id="standout" class="h-[100vh] flex flex-col sm:flex-row">
+      <img
+        src="./images/desktop/image-stand-out.jpg"
+        alt=""
+        class="w-[100%] sm:w-[50%]"
+      />
+      <div id="right" class="w-[100%] h-[100%] flex flex-col justify-center">
+        <h1
+          class="font-fraunces text-2xl w-[75%] text-center sm:w-96 sm:text-left self-center"
+        >
+          Stand out to the right audiance
+        </h1>
+        <h1
+          class="font-barlow w-[75%] sm:w-96 text-center sm:text-left text-gray-500 text-[15px] sm:text-[18px] self-center mt-5"
+        >
+          Using a collaborative formola of designers and researches,
+          photographers, videographers and copywriters,we'll build and extent
+          your brand in digital places.
+        </h1>
+        <div
+          class="font-fraunces text-sm self-center w-[100%] sm:w-96 mt-5 flex justify-center sm:justify-start"
+        >
+          <a href="#" class="border-b-4 border-pink-200">LEARN MORE</a>
+        </div>
+      </div>
+    </div>
+    <div id="graphice" class="h-[160vh] sm:h-[100vh] flex flex-col sm:flex-row">
+      <div
+        id="1"
+        class="w-[100%] sm:w-[50%] h-[80vh] sm:h-[100%] bg-cherry bg-cover bg-no-repeat bg-center flex flex-col justify-end"
+      >
+        <h1 class="font-fraunces text-center mb-5 text-xl text-gray-700">
+          Graphic Design
+        </h1>
+        <h1
+          class="font-barlow w-[80%] sm:w-80 text-center mb-10 text-[18px] self-center text-gray-700"
+        >
+          Great design makes you memorable. We deliver art work that undercovers
+          your message and captures potencial client's attention.
+        </h1>
+      </div>
+      <div
+        id="2"
+        class="w-[100%] sm:w-[50%] h-[80vh] sm:h-[100%] bg-apple bg-cover bg-no-repeat bg-center flex flex-col justify-end"
+      >
+        <h1 class="font-fraunces text-center mb-5 text-xl text-gray-700">
+          Photography
+        </h1>
+        <h1
+          class="font-barlow w-[80%] sm:w-80 text-center mb-5 sm:mb-10 text-[18px] self-center text-gray-700"
+        >
+          Increase your cradibility by getting stunning,the most high quality
+          photos that improve your business image.
+        </h1>
+      </div>
+    </div>
+    <div
+      id="testemonials"
+      class="h-[150vh] sm:h-[100vh] flex flex-col justify-evenly sm:justify-center"
+    >
+      <h1
+        class="font-fraunces text-sm sm:text-xl text-gray-400 text-center tracking-widest mb-0 sm:mb-16"
+      >
+        CLIENT TESTIMONIALS
+      </h1>
+      <div id="reviews" class="flex flex-col sm:flex-row justify-around">
+        <div id="client1" class="flex flex-col">
+          <img
+            src="./images/image-emily.jpg"
+            alt=""
+            class="h-14 w-14 rounded-full self-center mb-5 sm:mb-10"
+          />
+          <h1
+            class="font-barlow w-[75%] sm:w-72 text-center mb-7 sm:mb-14 text-[15px] sm:text-[18px] text-gray-500 self-center"
+          >
+            we put our trust in Sunnyside and they deliver making sure our needs
+            were met and deadlines were always hit.
+          </h1>
+          <h1 class="font-fraunces self-center">Emily R.</h1>
+          <h1
+            class="font-barlow text-gray-400 self-center text-xs mb-10 sm:mb-0"
+          >
+            Markiting Director
+          </h1>
+        </div>
+        <div id="client2" class="flex flex-col">
+          <img
+            src="./images/image-thomas.jpg"
+            alt=""
+            class="h-14 w-14 rounded-full self-center mb-5 sm:mb-10"
+          />
+          <h1
+            class="font-barlow w-[75%] sm:w-72 text-center mb-7 sm:mb-14 text-[15px] sm:text-[18px] text-gray-500 self-center"
+          >
+            Sunnyside's enthusiasm coupled with their keen intrest in our
+            brand's success made it a satisifing and enjoyable experiance.
+          </h1>
+          <h1 class="font-fraunces self-center">Thomas S.</h1>
+          <h1
+            class="font-barlow text-gray-400 self-center text-xs mb-10 sm:mb-0"
+          >
+            Chief Operating Officer
+          </h1>
+        </div>
+        <div id="client3" class="flex flex-col">
+          <img
+            src="./images/image-jennie.jpg"
+            alt=""
+            class="h-14 w-14 rounded-full self-center mb-5 sm:mb-10"
+          />
+          <h1
+            class="font-barlow w-[75%] sm:w-72 text-center mb-7 sm:mb-14 text-[15px] sm:text-[18px] text-gray-500 self-center"
+          >
+            Incradible end results! Our sales increases by 400% when we worked
+            on Sunnyside. Highly recomended!
+          </h1>
+          <h1 class="font-fraunces self-center">Jennie F.</h1>
+          <h1
+            class="font-barlow text-gray-400 self-center text-xs mb-5 sm:mb-0"
+          >
+            Business Owner
+          </h1>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="h-[115vh] sm:h-[120vh]"
+      style="background-color: hsl(168, 43%, 52%)"
+    >
+      <div id="gallery" class="flex overflow-clip flex-wrap">
+        <img
+          src="./images/desktop/image-gallery-milkbottles.jpg"
+          alt=""
+          class="h-[50%] w-[50%] sm:w-[25vw]"
+        />
+        <img
+          src="./images/desktop/image-gallery-orange.jpg"
+          alt=""
+          class="h-[50%] w-[50%] sm:w-[25vw]"
+        />
+        <img
+          src="./images/desktop/image-gallery-cone.jpg"
+          alt=""
+          class="h-[50%] w-[50%] sm:w-[25vw]"
+        />
+        <img
+          src="./images/desktop/image-gallery-sugarcubes.jpg"
+          alt=""
+          class="h-[50%] w-[50%] sm:w-[25vw]"
+        />
+      </div>
+      <div id="icons" class="flex flex-col justify-center content-center">
+        <h1
+          class="self-center mt-10 font-barlow font-extrabold text-xl text-gray-500"
+          style="color: hsl(168, 79%, 26%)"
+        >
+          sunnyside
+        </h1>
+        <ul
+          class="flex space-x-5 self-center mt-10 font-barlow text-gray-400 text-sm"
+          style="color: hsl(168, 79%, 26%)"
+        >
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+        <div id="social" class="flex self-center mt-10 space-x-5">
+          <a href="#"
+            ><img
+              style="color: hsl(168, 79%, 26%)"
+              src="./images/icon-facebook.svg"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              style="color: hsl(168, 79%, 26%)"
+              src="./images/icon-instagram.svg"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              style="color: hsl(168, 79%, 26%)"
+              src="./images/icon-twitter.svg"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              style="color: hsl(168, 79%, 26%)"
+              src="./images/icon-pinterest.svg"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
